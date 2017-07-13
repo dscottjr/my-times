@@ -3,17 +3,29 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-}
-
-.container {
-  display: flex;
   justify-content: space-between;
+  border-bottom: thin solid black;
+  padding-bottom: 5px;
+
 }
 
 .logo {
   display: flex;
   color: Mediumaquamarine;
-  justify-content: space-between;
+}
+
+nav {
+  justify-content: center;
+  display: flex;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li span {
+  padding: 10px;
 }
 
 #logotext {
@@ -21,19 +33,6 @@ margin: auto;
 margin-left: 15px;
 }
 
-nav {
-  display: flex;
-}
-
 nav a {
   color: black;
-}
-
-ul {
-  margin: auto;
-}
-
-li {
-  list-style: none;
-  display: inline-block;
 }
