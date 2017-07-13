@@ -17,6 +17,7 @@
 nav {
   justify-content: center;
   display: flex;
+  margin-right: 30px;
 }
 
 li {
