@@ -6,7 +6,6 @@
   justify-content: space-between;
   border-bottom: thin solid black;
   padding-bottom: 5px;
-
 }
 
 .logo {
@@ -30,10 +29,42 @@ li span {
 }
 
 #logotext {
-margin: auto;
-margin-left: 15px;
+  margin: auto;
+  margin-left: 15px;
 }
 
 nav a {
   color: black;
+}
+
+.container {
+  display: flex;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.column {
+  display: flex;
+  border: thin solid black;
+  flex-direction: column;
+}
+
+.bigbox {
+  display: flex;
+  border: thin solid black;
+  flex-direction: column;
+}
+
+.smallbox {
+  border: thin solid black;
 }
