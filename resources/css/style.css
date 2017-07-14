@@ -68,3 +68,24 @@ nav a {
 .smallbox {
   border: thin solid black;
 }
+
+.imagediv {
+  display:flex;
+}
+
+.bigbox .smallbox.imagediv {
+  background-image: url("../images/img-story-main.png");
+}
+
+.imagediv p {
+font-family: Georgia;
+ font-weight: bold;
+ font-size: 30px;
+ color: white;
+}
+
+.smallbox {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
